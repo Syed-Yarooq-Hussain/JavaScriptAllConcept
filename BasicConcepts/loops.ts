@@ -30,14 +30,14 @@ for (let key in obj) {
 
 
 console.log('\n\n5️⃣ for-of Loop  (📌 Best for: Arrays, Strings, Sets)');
-let arr = [1, 2, 3];
-for (let value of arr) {
+let array= [1, 2, 3];
+for (let value of array) {
     console.log("for-of Iteration:", value);
 }
 
 
 console.log('\n\n6️⃣ forEach Loop (📌 Best for: Arrays (More readable than for loop))');
-arr.forEach((value) => {
+array.forEach((value) => {
     console.log("forEach Iteration:", value);
 });
 
