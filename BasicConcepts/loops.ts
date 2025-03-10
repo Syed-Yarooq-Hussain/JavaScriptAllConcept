@@ -1,11 +1,12 @@
 console.log("🔁 All Looping Methods in JavaScript");
 
+// simple for loop
 console.log('1️⃣ for Loop');
 for (let i = 1; i <= 3; i++) {
     console.log("for Iteration:", i);
 }
 
-
+// while loop
 console.log('\n\n2️⃣ while Loop');
 let j = 1;
 while (j <= 3) {
@@ -13,7 +14,7 @@ while (j <= 3) {
     j++;
 }
 
-
+// do-while loop
 console.log('\n\n3️⃣ do-while Loop');
 let k = 1;
 do {
@@ -21,27 +22,27 @@ do {
     k++;
 } while (k <= 3);
 
-
+// for-in loop
 console.log('\n\n4️⃣ for-in Loop (📌 Best for: Objects, but can be used for Arrays (though for...of is better)');
 let obj = { a: 1, b: 2, c: 3 };
 for (let key in obj) {
     console.log(`key and value of object is ${key}: ${obj[key]}`);
 }
 
-
+// for-of loop
 console.log('\n\n5️⃣ for-of Loop  (📌 Best for: Arrays, Strings, Sets)');
 let array= [1, 2, 3];
 for (let value of array) {
     console.log("for-of Iteration:", value);
 }
 
-
+// forEach loop
 console.log('\n\n6️⃣ forEach Loop (📌 Best for: Arrays (More readable than for loop))');
 array.forEach((value) => {
     console.log("forEach Iteration:", value);
 });
 
-
+// map loop
 console.log('\n\n map() Method (Returns Modified Copy)');
 let arr1 = [1, 2, 3];
 let arr2 = arr1.map((value) => {
@@ -67,7 +68,7 @@ for (let i = 1; i <= 3; i++) {
     console.log("break Iteration:", i);
 }
 
-
+// filter loop
 console.log('\n\n18️⃣ filter() Method (Filter Elements from Array)');
 let arr3 = [1, 2, 3, 4, 5];
 let arr4 = arr3.filter((value) => {
