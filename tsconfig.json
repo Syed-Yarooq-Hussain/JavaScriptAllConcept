@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "strict": false,
-        "lib": [
-            "es2018",
-            "dom"
-        ]
-    }
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ESNext",
+        "outDir": "./dist",
+        "rootDir": "./",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "strict": false
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": ["node_modules"]
 }
