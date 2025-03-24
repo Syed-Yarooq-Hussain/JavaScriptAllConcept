@@ -10,7 +10,7 @@
         "strict": false
     },
     "include": [
-        "./**/*.ts"
-    ],
+        "./**/*.ts",
+        "OOP/*.js"],
     "exclude": ["node_modules"]
 }
